@@ -1,0 +1,27 @@
+---
+title: Wudang Gong Fu & Health Academy
+---
+
+.header
+  .header-title
+    = t :home_title
+  .header-tagline
+    = t :home_tagline
+  .header-buttons
+    a.btn.btn-active = t :btn_cta
+    hr
+    a.btn.btn-white = t :btn_about
+
+.container
+  .skills
+      - data.skills.each do |skill|
+        .skill-container
+          .skill-gradient style="background-image: #{gradient(skill.color1, skill.color2)}"
+            .skill
+              span style="background-image: #{gradient(skill.color1, skill.color2)}"
+                = skill.symbol
+          .skill-title
+            = skill.name
+          .skill-description
+            = t :"#{skill.slug}_description"
+

@@ -1,0 +1,25 @@
+- name: Tai Ji
+  symbol: 太
+  slug: tai_ji
+  color1: '#00D2FF'
+  color2: '#3A7BD5'
+- name: Xing Yi
+  symbol: 形
+  slug: xing_yi
+  color1: '#DA22FF'
+  color2: '#9733EE'
+- name: Bagua
+  symbol: 卦
+  slug: bagua
+  color1: '#FAD961'
+  color2: '#F76B1C'
+- name: Daoist Meditation
+  symbol: 觀
+  slug: daoist_meditation
+  color1: '#7B4397'
+  color2: '#DC2430'
+- name: Qi Gong
+  slug: qi_gong
+  color1: '#B4EC51'
+  color2: '#429321'
+  symbol: 气

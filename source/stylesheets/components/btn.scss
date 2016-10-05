@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  background: black;
+  padding: 0 20px;
+  line-height: 48px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+
+  &-active {
+    background: #2ECC71;
+    border: 1px solid #2ECC71;
+
+    &:hover {
+      background: lighten(#2ECC71, 5%);
+      border-color: lighten(#2ECC71, 5%);
+    }
+  }
+
+  &-white {
+    background: rgba(255, 255,255, .2);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    color: rgba(255, 255, 255, 0.9);
+
+    &:hover {
+      color: white;
+      background: rgba(255, 255,255, .3);
+    }
+  }
+}
