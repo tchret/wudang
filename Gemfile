@@ -9,4 +9,5 @@ gem 'middleman-autoprefixer'
 gem "slim"
 gem "jquery-middleman"
 gem 'middleman-pry'
+
 # gem 'rails-assets-scrollreveal', source: 'https://rails-assets.org'
