@@ -2,15 +2,10 @@
 title: Wudang Gong Fu & Health Academy
 ---
 
-.header
-  .header-title
-    = t :home_title
-  .header-tagline
-    = t :home_tagline
-  .header-buttons
-    a.btn.btn-active = t :btn_cta
-    hr
-    a.btn.btn-white = t :btn_about
+= partial 'partials/header'
+
+
+
 
 .container
   .skills
@@ -24,6 +19,17 @@ title: Wudang Gong Fu & Health Academy
             = skill.name
           .skill-description
             = t :"#{skill.slug}_description"
+.container#about
+  .about-school
+    .title
+      = t :about_home_title
+.about-school-banner
+
+.container
+  .about-school-text
+    = t(:about_home_text).html_safe
+
+
 .actor-wrapper
   .container
     .actor-container
@@ -31,6 +37,8 @@ title: Wudang Gong Fu & Health Academy
       .actor-content
         .actor-title
           = 'Tang Li Long'
+        .actor-role
+          = 'Master'
         .actor-description
           = t :tang_li_long_description_short
         .actor-buttons

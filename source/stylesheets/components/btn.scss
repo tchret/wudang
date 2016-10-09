@@ -5,6 +5,12 @@
   line-height: 48px;
   border-radius: 3px;
   cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+
+  &:focus {
+    outline: 0;
+  }
 
   @media (max-width: 800px) {
     font-size: 14px;
@@ -13,6 +19,7 @@
   &-active {
     background: #2ECC71;
     border: 1px solid #2ECC71;
+    color: white;
 
     &:hover {
       background: lighten(#2ECC71, 5%);

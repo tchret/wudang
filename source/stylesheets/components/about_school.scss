@@ -1,0 +1,59 @@
+#about {
+  padding-top: 100px;
+}
+
+.about-school-banner {
+  background: image-url('banner_about.jpg');
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1900px;
+  margin: auto;
+  position: relative;
+
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: linear-gradient(90deg, white, transparent);
+  }
+
+  &:before {
+    left: inherit;
+    right: 0;
+    background: linear-gradient(-90deg, white, transparent);
+
+  }
+
+  @media (max-width: 800px) {
+    height: 150px;
+  }
+}
+
+
+.title {
+  font-size: 30px;
+  color: #BBBBBB;
+  letter-spacing: 0px;
+  padding-bottom: 25px;
+  @media (max-width: 800px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.about-school-text {
+  font-size: 22px;
+  padding: 50px 0;
+  line-height: 1.7;
+  font-weight: 400;
+  opacity: .8;
+
+  @media (max-width: 800px) {
+    padding: 25px 20px;
+  }
+}
