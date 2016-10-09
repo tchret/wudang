@@ -1,4 +1,35 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700,900';
+@font-face {
+ font-family: "Lato";
+ src: font-url('lato-black/lato-black.eot');
+ src: font-url('lato-black/lato-black.otf') format('otf'),
+      font-url('lato-black/lato-black.woff') format('woff'),
+      font-url('lato-black/lato-black.svg') format('svg'),
+      font-url('lato-black/lato-black.ttf') format('truetype');
+ font-weight: 900;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: font-url('lato-bold/lato-bold.eot');
+  src: font-url('lato-bold/lato-bold.otf') format('otf'),
+       font-url('lato-bold/lato-bold.woff') format('woff'),
+       font-url('lato-bold/lato-bold.svg') format('svg'),
+       font-url('lato-bold/lato-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: font-url('lato-regular/lato-regular.eot');
+  src: font-url('lato-regular/lato-regular.otf') format('otf'),
+       font-url('lato-regular/lato-regular.woff') format('woff'),
+       font-url('lato-regular/lato-regular.svg') format('svg'),
+       font-url('lato-regular/lato-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
   font-family: 'Lato', 'sans-serif';
@@ -6,3 +37,4 @@
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.3;
 }
+
