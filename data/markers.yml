@@ -1,0 +1,45 @@
+- lat: '32.514297'
+  lon: '111.214642'
+  color: 'blue'
+  name: 'School'
+
+- name: 'Hostel'
+  lat: '32.510753'
+  lon: '111.081328'
+
+- name: 'Wudang Shan Gate'
+  lat: '32.508122'
+  lon: '111.090987'
+
+- name: 'Central Bus Station'
+  lat: '32.509526'
+  lon: '111.088479'
+
+- name: 'Bank Of China'
+  lat: '32.511540'
+  lon: '111.081835'
+
+- name: 'Police Station'
+  lat: '32.515343'
+  lon: '111.080226'
+
+- name: 'Supermarket'
+  lat: '32.512313'
+  lon: '111.080097'
+
+- name: 'Tailor Shop'
+  lat: '32.511537'
+  lon: '111.079801'
+
+- name: 'Hospital'
+  lat: '32.511936'
+  lon: '111.080451'
+
+- name: 'Train Ticket agency'
+  lat: '32.511650'
+  lon: '111.076575'
+
+- name: 'Massage'
+  lat: '32.511691'
+  lon: '111.081440'
+

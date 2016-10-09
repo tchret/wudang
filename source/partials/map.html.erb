@@ -1,0 +1,50 @@
+<div class='map-container'>
+  <div class='map' id='map'>
+    <div class='map-address-container'>
+      <div class='map-address'>
+        <%= partial 'icons/pin' %>
+        <span>
+          <%= 'Wudang Mountain, Taiji Lake East Side, South Ravine Village Area.' %>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+  $(document).ready(function() {
+    var url = "https://api.mapbox.com/styles/v1/tchret/citxvownv00bg2irqsrcry01o/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidGNocmV0IiwiYSI6ImNpc2EyMnRpdzAwMGoydHA1YzlpZGg4Z3kifQ.a73JDIHAmDuctmkfxzyzmQ"
+    var map = L.map('map').setView([32.514297, 111.214642], 13);
+    map.scrollWheelZoom.disable();
+
+
+    L.tileLayer(url, {
+        maxZoom: 18,
+        scrollWheelZoom: false,
+        id: 'citxvownv00bg2irqsrcry01o',
+        accessToken: 'pk.eyJ1IjoidGNocmV0IiwiYSI6ImNpc2EyMnRpdzAwMGoydHA1YzlpZGg4Z3kifQ.a73JDIHAmDuctmkfxzyzmQ',
+        detectRetina: true
+    }).addTo(map);
+
+    var markers = JSON.parse('<%= data.markers.to_json %>');
+
+    var whitePin = L.icon({
+        iconUrl: '<%= image_path("marker_white.png") %>',
+
+        iconSize:     [23, 36], // size of the icon
+        iconAnchor:   [11,5, 35], // point of the icon which will correspond to marker's location
+        popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+
+    markers.map( function(marker, i) {
+      if (marker.color == 'blue') {
+        var marker = L.marker([marker.lat, marker.lon]).addTo(map).bindPopup(marker.name);
+      } else {
+        console.log('yo')
+        var marker = L.marker([marker.lat, marker.lon], {icon: whitePin}).addTo(map).bindPopup(marker.name);
+      }
+    })
+  })
+</script>
