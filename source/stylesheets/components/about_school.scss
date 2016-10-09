@@ -20,12 +20,17 @@
     bottom: 0;
     width: 100px;
     background: linear-gradient(90deg, white, transparent);
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.001) 50%, #fff 90%, #fff 100%);
+
+
   }
 
   &:before {
     left: inherit;
     right: 0;
     background: linear-gradient(-90deg, white, transparent);
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.001) 50%, #fff 90%, #fff 100%);
+
 
   }
 
