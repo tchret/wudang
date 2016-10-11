@@ -1,0 +1,24 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  opacity: .3;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+
+  .signature {
+    margin-top: 20px;
+    text-transform: lowercase;
+    letter-spacing: 0;
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
