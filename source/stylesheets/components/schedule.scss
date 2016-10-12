@@ -1,0 +1,95 @@
+.schedule {
+  &-wrapper {
+    padding: 50px 0;
+    background: #16222A;
+  }
+
+  &-title {
+    text-align: center;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 50px;
+  }
+}
+
+.schedule {
+}
+
+.schedule-item {
+  display: table;
+  width: 100%;
+  color: white;
+  &:last-child {
+    .schedule-item-artifact {
+      &:before {
+        background: linear-gradient(rgba(255, 255, 255, 0.12), transparent);
+      }
+    }
+  }
+
+  & > div {
+    display: table-cell;
+  }
+
+  &-hour {
+    vertical-align: middle;
+    width: 42px;
+  }
+
+  &-artifact {
+    width: 10px;
+    position: relative;
+    padding: 0 20px;
+
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 6px;
+      background: white;
+      width: 6px;
+      box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.4), 0px 0px 0px 6px rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      transform: translateY(50%);
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      left: 0;
+      background: rgba(255, 255, 255, 0.12);
+    }
+  }
+
+  &-titles {
+    background: rgba(white, .2);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    &-container {
+      padding: 15px;
+    }
+
+    main {
+      display: table-cell;
+      width: 100%;
+    }
+
+    sidebar {
+      display: table-cell;
+      white-space: nowrap;
+      opacity: .5;
+    }
+  }
+}

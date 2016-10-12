@@ -2,10 +2,7 @@
 title: Wudang Gong Fu & Health Academy
 ---
 
-= partial 'partials/header'
-
-
-
+= partial 'partials/header', locals: {title: t(:home_banner_title), tagline: t(:home_banner_tagline), anchor: '#about', alpha_btn: t(:btn_cta), beta_btn: t(:btn_about), slug: 'home'}
 
 .container
   .skills
@@ -31,7 +28,7 @@ title: Wudang Gong Fu & Health Academy
 
 
 .actor-wrapper
-  .container
+  .container.no-padding
     .actor-container
       .actor.is-clickable
       .actor-content

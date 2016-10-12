@@ -1,10 +1,15 @@
 en:
-  home_title: 'Come to China. <br/> Transform yourself.'
-  home_tagline: 'The Wudang Gong Fu & Health Academy is a small secluded school with a genuine education program'
+  navbar_program: 'Program'
+
+  home_banner_title: 'Come to China. <br/> Transform yourself.'
+  home_banner_tagline: 'The Wudang Gong Fu & Health Academy is a small secluded school with a genuine education program'
+  program_banner_title: 'Xuan Wu Pai <br/>Study program'
+  program_banner_tagline: 'Designed to give you a proper foundation with in the Internal Martial arts of Wudang Shan'
 
   btn_cta: 'Apply for a stay'
   btn_about: 'About the school'
   btn_tang_li_long: 'Learn more about the master'
+  btn_learn_more: 'Learn more'
 
   tai_ji_description: Internal Chinese martial art (武术) practiced for both its defense training and its health benefits.
   xing_yi_description: Aggressive, seemingly linear movements and explosive power that's most often applied from a short range.
@@ -19,3 +24,4 @@ en:
 
   tang_li_long_description_short: One of the main disciples of Grand Master You Xuan De. He has a long experience of the Internal Wudang Martial Arts and have created a system that teaches the essence effectively. Under his guidance you will learn the tradition preserved on the mountain.
 
+  schedule_title: 'Daily schedule'

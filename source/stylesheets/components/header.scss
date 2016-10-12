@@ -3,9 +3,17 @@
   padding: 155px 20px;
   color: white;
   position: relative;
-  background-image: image-url('background_home.jpg');
   background-size: cover;
   background-position: center top;
+
+  &.home {
+    background-image: image-url('background_home.jpg');
+  }
+
+  &.program {
+    background-image: image-url('background_program.jpg');
+    background-position: center bottom;
+  }
 
   &:after {
     background-image: linear-gradient(0deg, #16222A 0%, rgba(58, 96, 115, 0.33) 100%);

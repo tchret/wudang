@@ -1,0 +1,6 @@
+.navbar
+  .navbar-main
+  .navbar-menu
+    - data.navbar_menu_items.each do |item|
+      span class="#{'is-active' if page_classes.include?(item.href)}"
+        = link_to t(:"navbar_#{item.href}"), "#{item.href}"

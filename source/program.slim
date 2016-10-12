@@ -1,0 +1,24 @@
+---
+title: Program — Wudang Gong Fu & Health Academy
+---
+
+= partial 'partials/header', locals: {title: t(:program_banner_title), tagline: t(:program_banner_tagline), anchor: '#more', alpha_btn: t(:btn_cta), beta_btn: t(:btn_learn_more), slug: 'program'}
+
+.schedule-wrapper
+  .schedule-title
+    = t :schedule_title
+
+  .container
+    .schedule
+      - data.schedule_items.each do |item|
+        .schedule-item
+          .schedule-item-hour
+            = item.start_at
+          .schedule-item-artifact
+          .schedule-item-titles-container
+            .schedule-item-titles
+              main
+                = item.title
+              sidebar
+                = item.chinese
+
