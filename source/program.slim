@@ -4,11 +4,10 @@ title: Program — Wudang Gong Fu & Health Academy
 
 = partial 'partials/header', locals: {title: t(:program_banner_title), tagline: t(:program_banner_tagline), anchor: '#more', alpha_btn: t(:btn_cta), beta_btn: t(:btn_learn_more), slug: 'program'}
 
-.schedule-wrapper
+.schedule-wrapper.is-padded
   .schedule-title
     = t :schedule_title
     hr
-
   .container
     .schedule
       - data.schedule_items.each do |item|
@@ -23,3 +22,11 @@ title: Program — Wudang Gong Fu & Health Academy
               sidebar
                 = item.chinese
 
+.container.program-video
+  = partial 'partials/video', locals: {id: 'TQVKQMX4Sxc'}
+.container.padding-vertical
+  - ['method', 'disciple', 'bai'].each do |slug|
+    .title
+      = t :"program_title_#{slug}"
+    .paragraph
+      = t(:"program_paragraph_#{slug}").html_safe

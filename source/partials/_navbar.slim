@@ -1,5 +1,7 @@
 .navbar
   .navbar-main
+    = link_to 'home' do
+      span.logo
   .navbar-menu
     - data.navbar_menu_items.each do |item|
       span class="#{'is-active' if page_classes.include?(item.href)}"

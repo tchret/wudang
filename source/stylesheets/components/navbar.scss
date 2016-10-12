@@ -1,3 +1,12 @@
+.logo {
+  height: 30px;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.28);
+  border: 3px solid rgba(255, 255, 255, 0.39);
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .navbar {
   padding: 20px;
   position: absolute;
@@ -14,6 +23,9 @@
 }
 
 .navbar-menu {
+  vertical-align: middle;
+  display: table-cell;
+
   span {
     &.is-active {
       a {
@@ -29,6 +41,7 @@
           left: 0;
           right: 0;
           margin: auto;
+          box-shadow: 0px 0px 0px 2px rgba(46, 204, 113, 0.36);
           bottom: -7px;
         }
 

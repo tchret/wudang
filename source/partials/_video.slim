@@ -1,0 +1,19 @@
+.video-container
+  iframe.video src="http://www.youtube.com/embed/#{id}?version=3" allowfullscreen="true" style="border:0;"
+
+
+
+javascript:
+  $(document).ready(function() {
+    UserInfo.getInfo(function(data) {
+      // the "data" object contains the info
+      if (data.country.code == 'CN') {
+        $('.program-video').remove()
+        $('.schedule-wrapper ').removeClass('is-padded')
+      } else {
+        // not in china
+      }
+    }, function(err) {
+      console.log(err)
+    });
+  })
