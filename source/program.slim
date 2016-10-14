@@ -30,3 +30,39 @@ title: Program — Wudang Gong Fu & Health Academy
       = t :"program_title_#{slug}"
     .paragraph
       = t(:"program_paragraph_#{slug}").html_safe
+.program-slider-wrapper
+  .container
+    .program-slider
+      .program-slider-items
+        - data.sections.each do |section|
+          div.program-slider-item class="#{'is-active' if section.is_active}"
+            .program-slider-item-title
+              = t(:"#{section.slug}_title")
+            .program-slider-item-subtitle
+              = t(:"#{section.slug}_subtitle")
+
+            .tags
+              - section.tags.each do |tag|
+                - if tag.no_slug
+                  .tag = tag.slug
+                - else
+                  .tag
+                    = t(:"tag_#{tag.slug}")
+
+            .program-slider-item-description
+              = t(:"#{section.slug}_description")
+
+      .program-slider-timeline
+        - active = false
+        - data.sections.each do |section|
+          - active = true if section.is_active
+          .program-slider-timeline-item class="#{!active ? 'is-before-active' : ('is-active' if section.is_active)}"
+            .program-slider-timeline-item-content
+              = partial 'icons/check'
+            .program-slider-timeline-item-popover-container
+              .program-slider-timeline-item-popover
+                = t(:"#{section.slug}_title")
+
+
+
+

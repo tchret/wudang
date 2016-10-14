@@ -1,0 +1,145 @@
+.program-slider-wrapper {
+  background: #FAFAFA;
+  padding: 50px 0;
+}
+.program-slider-item {
+  display: none;
+  &.is-active {
+    display: block;
+
+
+
+  }
+}
+.program-slider-item-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+}
+
+.program-slider-item-subtitle {
+  font-size: 24px;
+  opacity: .4;
+}
+
+.program-slider-item-description {
+  font-size: 20px;
+  opacity: .7;
+}
+
+.program-slider-timeline {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.program-slider-timeline-item {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+
+
+  &.is-before-active {
+    .program-slider-timeline-item-content {
+      background: #2ECC71;
+      border-color: #2ECC71;
+    }
+
+    &:after, &:before {
+      background: #2ECC71;
+    }
+  }
+
+  &.is-active {
+    .program-slider-timeline-item-popover {
+      display: inline-block !important;
+    }
+    .program-slider-timeline-item-content {
+      border-color: #2ECC71;
+      cursor: default;
+      &:hover {
+        transform: scale(1);
+      }
+    }
+
+    &:before {
+      background: #2ECC71;
+    }
+  }
+
+  &:after, &:before {
+    content: '';
+    height: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.09);
+    right: 0;
+    margin: auto;
+    width: 50%;
+  }
+
+  &:before {
+    right: inherit;
+    left: 0;
+  }
+
+  &-content {
+    background: white;
+    position: relative;
+    border: 3px solid rgba(0, 0, 0, 0.09);
+    z-index: 3;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform .15s ease;
+
+    &:hover {
+      transform: scale(1.2);
+
+      & + .program-slider-timeline-item-popover-container {
+        .program-slider-timeline-item-popover {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  &-popover-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+
+}
+
+
+.program-slider-timeline-item-popover {
+  background: #16222A;
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  padding: 7px;
+  margin-top: 13px;
+  font-size: 14px;
+  position: relative;
+  display: none;
+
+  &:after {
+    width: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 0;
+    right: 0;
+    margin: auto;
+    top: -5px;
+    border-style: solid;
+    border-width: 0 8.5px 8px 8.5px;
+    border-color: transparent transparent #16222a transparent;
+  }
+}

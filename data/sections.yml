@@ -1,0 +1,33 @@
+- slug: section_1
+  tags:
+    - slug: basic_schedule
+
+- slug: section_2
+  tags:
+    - slug: basic_schedule
+
+- slug: section_3
+  tags:
+    - slug: basic_schedule
+
+- slug: section_4
+  tags:
+    - slug: basic_schedule
+
+- slug: section_5
+  tags:
+    - slug: basic_schedule
+
+- slug: section_6
+  tags:
+    - slug: basic_schedule
+
+- slug: section_7
+  is_active: true
+  tags:
+    - slug: basic_schedule
+    - slug: internal_training
+    - slug: fu_chen
+    - slug: 64 Taiji Quan
+      no_slug: true
+
