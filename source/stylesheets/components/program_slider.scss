@@ -1,36 +1,56 @@
 .program-slider-wrapper {
   background: #FAFAFA;
   padding: 50px 0;
+  padding-bottom: 100px;
 }
+
+.program-slider {
+  position: relative;
+}
+
 .program-slider-item {
   display: none;
   &.is-active {
     display: block;
-
-
-
   }
 }
 .program-slider-item-title {
   font-size: 42px;
   letter-spacing: -1px;
+
+  @media(max-width: 800px) {
+    font-size: 29px;
+  }
+}
+
+.program-slider-content {
+  margin: 50px 0;
+  min-height: 280px;
 }
 
 .program-slider-item-subtitle {
   font-size: 24px;
   opacity: .4;
+
+  @media(max-width: 800px) {
+    font-size: 19px;
+  }
 }
 
 .program-slider-item-description {
   font-size: 20px;
   opacity: .7;
+  margin-top: 25px;
 }
 
 .program-slider-timeline {
   display: table;
   width: 100%;
-  margin-top: 50px;
   text-align: justify;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .program-slider-timeline-item {
@@ -38,11 +58,19 @@
   text-align: center;
   position: relative;
 
+  svg {
+    visibility: hidden;
+  }
+
 
   &.is-before-active {
     .program-slider-timeline-item-content {
       background: #2ECC71;
       border-color: #2ECC71;
+    }
+
+    svg {
+      visibility: visible;
     }
 
     &:after, &:before {
@@ -56,10 +84,9 @@
     }
     .program-slider-timeline-item-content {
       border-color: #2ECC71;
+      transform: scale(1.2);
       cursor: default;
-      &:hover {
-        transform: scale(1);
-      }
+      background: white;
     }
 
     &:before {
@@ -95,6 +122,17 @@
     height: 20px;
     cursor: pointer;
     transition: transform .15s ease;
+    background: #c5c5c5;
+
+    @media (max-width: 800px) {
+      width: 10px;
+      height: 10px;
+
+      svg {
+        display: none;
+      }
+    }
+
 
     &:hover {
       transform: scale(1.2);
@@ -143,3 +181,43 @@
     border-color: transparent transparent #16222a transparent;
   }
 }
+
+.program-slider-arrows {
+  position: absolute;
+  right: 0;
+  display: table;
+  margin-top: 25px;
+  z-index: 99999;
+  user-select: none;
+
+  div {
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ececec;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+
+    &.is-inactive {
+      opacity: .5;
+    }
+
+    &:hover {
+      svg {
+        opacity: 1;
+      }
+    }
+
+    svg {
+      opacity: .5;
+    }
+    &:first-child {
+      border-left: 0;
+      transform: rotate(180deg);
+    }
+  }
+}
+
