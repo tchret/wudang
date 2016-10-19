@@ -1,7 +1,18 @@
 .map {
   height: 300px;
 
+  &.is-full-size {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    z-index: 9999;
+  }
+
   &-container {
+    height: 300px;
     position: relative;
   }
 
@@ -47,5 +58,25 @@
     svg {
       margin-right: -8px;
     }
+  }
+}
+
+.map-full-size {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 14px;
+  opacity: .5;
+  cursor: pointer;
+  width: 81px;
+
+  &.is-colored {
+    color: #2ECC71;
+    opacity: 1;
+  }
+
+  &:hover {
+    opacity: .7;
   }
 }

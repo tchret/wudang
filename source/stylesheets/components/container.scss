@@ -10,4 +10,8 @@
   &.padding-vertical {
     padding: 50px 20px;
   }
+
+  &.is-large {
+    max-width: 900px;
+  }
 }

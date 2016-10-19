@@ -4,7 +4,7 @@ title: Wudang Gong Fu & Health Academy
 
 = partial 'partials/header', locals: {title: t(:home_banner_title), tagline: t(:home_banner_tagline), anchor: '#about', alpha_btn: t(:btn_cta), beta_btn: t(:btn_about), slug: 'home'}
 
-.container
+.container.is-large
   .skills
       - data.skills.each do |skill|
         .skill-container
@@ -25,7 +25,6 @@ title: Wudang Gong Fu & Health Academy
 .container
   .about-school-text
     = t(:about_home_text).html_safe
-
 
 .actor-wrapper
   .container.no-padding

@@ -6,6 +6,9 @@
         <span>
           <%= 'Wudang Mountain, Taiji Lake East Side, South Ravine Village Area.' %>
         </span>
+        <i class='table-cell map-full-size'>
+          Full size
+        </i>
       </div>
     </div>
   </div>
@@ -42,7 +45,6 @@
       if (marker.color == 'blue') {
         var marker = L.marker([marker.lat, marker.lon]).addTo(map).bindPopup(marker.name);
       } else {
-        console.log('yo')
         var marker = L.marker([marker.lat, marker.lon], {icon: whitePin}).addTo(map).bindPopup(marker.name);
       }
     })
