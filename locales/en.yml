@@ -46,7 +46,7 @@ en:
 
   section_3_title: 'Section three'
   section_3_subtitle: 'Elementary 3'
-  section_3_description: ''TO DO'
+  section_3_description: TO DO
 
   section_4_title: 'Section four'
   section_4_subtitle: 'Intermediate 1'
@@ -86,4 +86,3 @@ en:
   tag_chinese_chess: Chinese Chess
   tag_wushu: Wushu Theory
   tag_tui_shou: Basic Wudang Tui Shou (one hand pattern and two hand pattern)
-

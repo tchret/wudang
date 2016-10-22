@@ -1,6 +1,10 @@
 .schedule {
-  margin: auto;
-  max-width: 500px;
+
+  &-container {
+    margin: auto;
+    position: relative;
+    max-width: 500px;
+  }
 
   &-wrapper {
     padding: 50px 0;

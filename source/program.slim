@@ -15,18 +15,19 @@ title: Program — Wudang Gong Fu & Health Academy
           .schedule-legend-item-circle style="border-left-color: #{item[0]}"
           .schedule-legend-item-title
             = t :"#{item[1]}"
-    .schedule
-      - data.schedule_items.each do |item|
-        .schedule-item
-          .schedule-item-hour
-            = item.start_at
-          .schedule-item-artifact
-          .schedule-item-titles-container
-            .schedule-item-titles class="#{item.type}"
-              main
-                = item.title
-              sidebar
-                = item.chinese
+    .schedule-container
+      .schedule
+        - data.schedule_items.each do |item|
+          .schedule-item
+            .schedule-item-hour
+              = item.start_at
+            .schedule-item-artifact
+            .schedule-item-titles-container
+              .schedule-item-titles class="#{item.type}"
+                main
+                  = item.title
+                sidebar
+                  = item.chinese
 
 .container.program-video
   = partial 'partials/video', locals: {id: 'TQVKQMX4Sxc'}
