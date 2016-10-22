@@ -8,6 +8,14 @@
  * Corrects `block` display not defined in IE 8/9.
  */
 
+ a {
+  outline: 0;
+
+  &:focus {
+    outline: none !important;
+  }
+ }
+
 article,
 aside,
 details,

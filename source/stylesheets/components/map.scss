@@ -2,17 +2,18 @@
   height: 300px;
 
   &.is-full-size {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    z-index: 9999;
+    // position: fixed !important;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // height: auto;
+    // z-index: 9999;
+    height: 100vh;
+    min-height: 300px;
   }
 
   &-container {
-    height: 300px;
     position: relative;
   }
 
@@ -67,9 +68,15 @@
   letter-spacing: 1px;
   font-style: normal;
   font-size: 14px;
-  opacity: .5;
+  color: black;
+  text-decoration: none;
   cursor: pointer;
   width: 81px;
+  opacity: .3;
+
+  @media(max-width: 800px) {
+    display: none;
+  }
 
   &.is-colored {
     color: #2ECC71;

@@ -25,6 +25,10 @@ en:
   tang_li_long_description_short: One of the main disciples of Grand Master You Xuan De. He has a long experience of the Internal Wudang Martial Arts and have created a system that teaches the essence effectively. Under his guidance you will learn the tradition preserved on the mountain.
 
   schedule_title: 'Daily schedule'
+  regular_training: 'Regular training'
+  self_practice: 'Self practice'
+  optional: 'Optional'
+
 
   program_title_method: The method
   program_paragraph_method: 'According to Tang Li Long the traditional way of Wudang, Wudang Pai has to posses 3 elements, the internal work and health benefits, the daoistic principles and the martial application. If one or two of them are missing, it is not Wudang Pai. Tang Li Long teachings builds from the 10 daoistic principles of Wudang, which contains the daoistic manual of internal cultivation, the meta-structure and narrative of the world and the fighting principles of Wudang Pai. This makes our way seem slow and unstructured but in-fact it is progressive and profound. The focus is on the internal work and to make the body move as one, where the Bufa (foot skills), Shenfa (body skills) and Shoufa (hand skills) will not be separated and the Shen will manifest in the movements. The method will give you the structure and from this structure your physical body shape, Qi and Shen (your “being”), will determine the path you walk and how your expression will look like. In the end our movements will be just a natural respond to our surrounding. Some people like this way and some people don’t, it demands patience and trust. This means that beside the external and internal cultivation there is also, inside the teachings, a self-cultivation of your personality. So, please ask yourself if this is really what you want, if the answer is no, there are many other schools you can turn to. If your answer is yes, please contact us for more information!'
@@ -34,33 +38,52 @@ en:
   program_paragraph_bai: One Hundred Days to Build the Foundation. It is said that the first 100 days are the most important phase of the training for building up the Qi, body structure and the 6 harmonies. With a good and solid foundation your future training will give good results. The program consists of 9 sections 3 months each to fit the schedule, but of course the sections can be extended for the people who like to come and do a full 100 days.
 
   section_1_title: 'Section one'
-  section_1_subtitle: 'Advanced 1'
-  section_1_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_1_subtitle: 'Basic Training / Elementary 1'
 
   section_2_title: 'Section two'
-  section_2_subtitle: 'Advanced 1'
-  section_2_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_2_subtitle: 'Elementary 2'
+  section_2_description: 'TO DO'
 
   section_3_title: 'Section three'
-  section_3_subtitle: 'Advanced 1'
-  section_3_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_3_subtitle: 'Elementary 3'
+  section_3_description: ''TO DO'
 
   section_4_title: 'Section four'
-  section_4_subtitle: 'Advanced 1'
-  section_4_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_4_subtitle: 'Intermediate 1'
+  section_4_description: TODO
 
   section_5_title: 'Section five'
-  section_5_subtitle: 'Advanced 1'
-  section_5_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_5_subtitle: 'Intermediate 2'
+  section_5_description: TODO
 
   section_6_title: 'Section six'
-  section_6_subtitle: 'Advanced 1'
-  section_6_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
+  section_6_subtitle: 'Intermediate 3'
+  section_6_description: TODO
 
   section_7_title: 'Section seven'
   section_7_subtitle: 'Advanced 1'
   section_7_description: 'After three months of training your Internal Gong Fu have further improved. All your other skills will have reached a higher level. The characteristics and style of Wudang Neijia Gung Fu will now show in your movements and approach.'
 
+  section_8_title: 'Section eight'
+  section_8_subtitle: 'Advanced 2'
+  section_8_description: TODO
+
+  section_9_title: 'Section nine'
+  section_9_subtitle: 'Advanced 3'
+  section_9_description: TODO
+
   tag_basic_schedule: Basics schedule
   tag_internal_training: Internal Training (Neijia Gong Fa)
   tag_fu_chen:  Tai Yi Horsetail Whisk (Fu Chen)
+  tag_ji_ben_gong: Basic Wudang Wushu Traning (Ji Ben Gong)
+  tag_daojia_tuna:  Breathing Exercises (Daojia Tuna)
+  tag_daoying: Daoyin Exercices
+  tag_daoist_sitting: Daoist Sitting Meditation
+  tag_reciting: Reciting Daoist Texts
+  tag_medicine: Basic Chinese Medicine for Health
+  tag_language: Chinese Language (basic conversation skills)
+  tag_calligraphy: Calligraphy
+  tag_chinese_chess: Chinese Chess
+  tag_wushu: Wushu Theory
+  tag_tui_shou: Basic Wudang Tui Shou (one hand pattern and two hand pattern)
+

@@ -1,46 +1,56 @@
-- title: Qi Gong*
+- title: Qi Gong
   chinese: 气功
   start_at: "06:00"
+  type: 'self-practice'
 - title: Breakfast
   chinese: 早餐
   start_at: "07:30"
 - title: Warm up
   chinese: 热身
   start_at: "08:30"
+  type: regular-training
 - title: Wudang Basics
   chinese: 基本
   start_at: "10:00"
 - title: Forms (Taolu)
   chinese: MISSING
+  type: regular-training
   start_at: "10:30"
 - title: Strength training (Gong Li)
   chinese: MISSING
+  type: regular-training
   start_at: "11:00"
 - title: Skill training
   chinese: MISSING
   start_at: "11:30"
+  type: regular-training
 - title: Lunch
   chinese: MISSING
   start_at: "12:30"
 - title: Break
   chinese: MISSING
   start_at: "13:00"
-- title: Daojia, Qi Gong & Wushu theories*
+- title: Daojia, Qi Gong & Wushu theories
   chinese: MISSING
+  type: self-practice
   start_at: "14:45"
 - title: Qi Gong
   start_at: "16:00"
+  type: regular-training
   chinese: MISSING
 - title: 'Wudang Basics, Forms'
   start_at: "17:00"
+  type: regular-training
   chinese: MISSING
 - title: Dinner
   start_at: "19:00"
   chinese: MISSING
-- title: Self-improvement and partner work (Tuishou & Sanshou **)
+- title: Self-improvement and partner work (Tuishou & Sanshou)
+  type: optionnal
   start_at: '20:00'
   chinese: MISSING
-- title: Meditation*
+- title: Meditation
+  type: self-practice
   start_at: '22:00'
   chinese: MISSING
 - title: Sleep

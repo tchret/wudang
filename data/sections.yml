@@ -1,33 +1,86 @@
 - slug: section_1
+  is_active: true
   tags:
-    - slug: basic_schedule
+    - slug: ji_ben_gong
+    - slug: daojia_tuna
+    - slug: daoying
+    - slug: daoist_sitting
+    - slug: reciting
+    - slug: medicine
+    - slug: language
+    - slug: calligraphy
+    - slug: chinese_chess
+    - slug: wushu
+    - slug: internal_training
+    - slug: tui_shou
+    - slug: Wudang 18 Taiji Quan
+      no_slug: true
+    - slug: Wudang 36 Taiji Quan
+      no_slug: true
 
 - slug: section_2
   tags:
     - slug: basic_schedule
+    - slug: internal_training
+    - slug: five_elements
+    - slug: Wudang Paochui
+      no_slug: true
+    - slug: tui_shou
+    - slug: shanshou_fighting
+
 
 - slug: section_3
   tags:
     - slug: basic_schedule
+    - slug: internal_training
+    - slug: basic_swordplay
+    - slug: taji_lian_huan_jian
+    - slug: wudang_dan_jian
+    - slug: basic_quin_na
 
 - slug: section_4
   tags:
     - slug: basic_schedule
+    - slug: internal_training
+    - slug: bagua_turning_palms
+    - slug: bagua_zhang
 
 - slug: section_5
   tags:
     - slug: basic_schedule
+    - slug: internal_training
+    - slug: Wudang Tai Yi Xiao Yao Zhang
+      no_slug: true
+    - slug: Wudang Tai Yi Shen Jian
+      no_slug: true
 
 - slug: section_6
   tags:
     - slug: basic_schedule
+    - slug: internal_training
+    - slug: liu_he_dao_fa
+    - slug: xuan_wu_gun_fa
 
 - slug: section_7
-  is_active: true
   tags:
     - slug: basic_schedule
     - slug: internal_training
     - slug: fu_chen
     - slug: 64 Taiji Quan
       no_slug: true
+
+- slug: section_8
+  tags:
+    - slug: basic_schedule
+    - slug: internal_training
+    - slug: Wudang 72 Taiji Quan
+      no_slug: true
+
+- slug: section_9
+  tags:
+    - slug: basic_schedule
+    - slug: internal_training
+    - slug: Wudang Tai Yi Mian Zhang
+      no_slug: true
+
 
