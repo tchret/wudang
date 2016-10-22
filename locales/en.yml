@@ -27,7 +27,7 @@ en:
   schedule_title: 'Daily schedule'
   regular_training: 'Regular training'
   self_practice: 'Self practice'
-  optional: 'Optional'
+  optional: 'Not given everyday'
 
 
   program_title_method: The method
@@ -39,26 +39,27 @@ en:
 
   section_1_title: 'Section one'
   section_1_subtitle: 'Basic Training / Elementary 1'
+  section_1_description: ''
 
   section_2_title: 'Section two'
   section_2_subtitle: 'Elementary 2'
-  section_2_description: 'TO DO'
+  section_2_description: 'After 3 months of training you will now have further improved your Ji Ben Gong and also a basic underdstanding of the Xing Yi Quan skills. This training will help you improve your power, stances and foot work. This is essential for further practice with in the Xing Yi Quan system.'
 
   section_3_title: 'Section three'
   section_3_subtitle: 'Elementary 3'
-  section_3_description: TO DO
+  section_3_description: 'After 3 months of training the sword techniques you have now a good understanding of the Wudang Swordplay. You have learned the characteristic body work and the body and sword is starting to work together.'
 
   section_4_title: 'Section four'
   section_4_subtitle: 'Intermediate 1'
-  section_4_description: TODO
+  section_4_description: 'After 3 months of training Bagua Zhang you have now a good understanding of the Bagua Zhang Foundations. You have learned the foot work and body work. The Bagua walk should be light, balanced and rooted. The hands, body and feets will work in harmony. This builds up for further practice with in the Bagua Zhang system.'
 
   section_5_title: 'Section five'
   section_5_subtitle: 'Intermediate 2'
-  section_5_description: TODO
+  section_5_description: 'After 3 months of training your body work has improved. Your basics are now on a higher level. Your movement will be more precise and direct and always balanced, centered and rooted.'
 
   section_6_title: 'Section six'
   section_6_subtitle: 'Intermediate 3'
-  section_6_description: TODO
+  section_6_description: 'After 3 months of training you have now achieved the basics with in saber and staff. You have improved the foot work, body work and learned the essential techniques. You have also improved the Neijia Gong Fu.'
 
   section_7_title: 'Section seven'
   section_7_subtitle: 'Advanced 1'
@@ -66,11 +67,11 @@ en:
 
   section_8_title: 'Section eight'
   section_8_subtitle: 'Advanced 2'
-  section_8_description: TODO
+  section_8_description: 'After three months of training your Taiji Quan Gong Fu will have further improved. Your Taiji will be fluid, relaxed, natural and centered.'
 
   section_9_title: 'Section nine'
   section_9_subtitle: 'Advanced 3'
-  section_9_description: TODO
+  section_9_description: 'You have now finished the Wudang disciple program and have the chance to become a Wudang Xuan Wu Disciple'
 
   tag_basic_schedule: Basics schedule
   tag_internal_training: Internal Training (Neijia Gong Fa)
@@ -86,3 +87,15 @@ en:
   tag_chinese_chess: Chinese Chess
   tag_wushu: Wushu Theory
   tag_tui_shou: Basic Wudang Tui Shou (one hand pattern and two hand pattern)
+  tag_shanshou_fighting: Wudang Sanshou Fighting
+  tag_five_elements: Wudang Five Elements Fist (Wu Xing Quan)
+  tag_basic_swordplay: Basic Wudang Swordplay (Shenfa, Bufa, Pinfa)
+  tag_taji_lian_huan_jian: Wudang Swordplay (Taiji Lian Huan Jian)
+  tag_wudang_dan_jian: Wudang Swordplay (Wudang Dan Jian)
+  tag_basic_quin_na: Basic Qin Na Techniques
+  tag_bagua_turning_palms: Basic Wudang Bagua Turning Palms
+  tag_bagua_zhang: Wudang Bagua Zhang
+  tag_liu_he_dao_fa: Wudang Six Harmony Saber (Liu He Dao Fa)
+  tag_xuan_wu_gun_fa: Basic Wudang Staff (Xuan Wu Gun Fa)
+
+  schedule_explainer: The schedule is not fixed and will change according to the weather conditions and seasons. All students are responsible for their own training and development. This means Tang Li Long will not tell you to work harder, this is up to you!

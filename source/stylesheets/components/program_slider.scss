@@ -48,6 +48,12 @@
   width: 100%;
   text-align: justify;
 
+  &:hover {
+    .program-slider-timeline-item-popover {
+      opacity: 0;
+    }
+  }
+
   @media (max-width: 800px) {
     display: none;
   }

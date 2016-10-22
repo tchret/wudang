@@ -1,5 +1,13 @@
 .schedule {
 
+  &-explainer {
+    text-align: center;
+    color: white;
+    opacity: .5;
+    max-width: 570px;
+    margin: auto;
+  }
+
   &-container {
     margin: auto;
     position: relative;
@@ -120,6 +128,7 @@
       display: table-cell;
       white-space: nowrap;
       opacity: .5;
+      vertical-align: middle;
     }
   }
 }
@@ -153,3 +162,11 @@
 }
 
 
+
+.schedule-explainer {
+  text-align: center;
+  color: white;
+  opacity: .5;
+  max-width: 570px;
+  margin: auto;
+}
