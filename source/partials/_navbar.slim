@@ -6,3 +6,5 @@
     - data.navbar_menu_items.each do |item|
       span class="#{'is-active' if page_classes.include?(item.href)}"
         = link_to t(:"navbar_#{item.href}"), "#{item.href}"
+    span
+      a.btn.btn-white.typeform-share href="https://tchret1.typeform.com/to/rfgZ5C" data-mode="1" target="_blank" = t :apply

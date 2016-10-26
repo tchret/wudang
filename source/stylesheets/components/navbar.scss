@@ -26,7 +26,20 @@
   vertical-align: middle;
   display: table-cell;
 
+  .btn {
+    padding: 12px;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+
   span {
+    display: table-cell;
+
+    .btn {
+      border: 2px solid white;
+    }
     &.is-active {
       a {
         opacity: 1;
