@@ -28,13 +28,13 @@
   }
 
   &-white {
-    background: rgba(255, 255,255, .2);
-    border: 1px solid rgba(255, 255, 255, 0.32);
-    color: rgba(255, 255, 255, 0.9);
+    background: rgba(white, 1);
+    font-weight: 400 !important;
+    color: #16222A !important;
 
     &:hover {
       color: white;
-      background: rgba(255, 255,255, .3);
+      background: rgba(255, 255,255, 1);
     }
   }
 }
