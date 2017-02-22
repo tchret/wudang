@@ -15,6 +15,12 @@
     background-position: center center;
   }
 
+
+  &.pricing {
+    background-image: image-url('background_program.jpg');
+    background-position: center center;
+  }
+
   &:after {
     background-image: linear-gradient(0deg, #16222A 0%, rgba(58, 96, 115, 0.33) 100%);
     position: absolute;

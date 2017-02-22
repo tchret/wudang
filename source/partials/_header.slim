@@ -4,9 +4,11 @@
   .header-tagline
     = tagline
   .header-buttons
-    a.btn.btn-active.typeform-share href="https://tchret1.typeform.com/to/rfgZ5C" data-mode="1" target="_blank" = alpha_btn
-    hr
-    a.btn.btn-white href="#{anchor}" = beta_btn
+    - if defined? alpha_btn
+      a.btn.btn-active.typeform-share href="https://tchret1.typeform.com/to/rfgZ5C" data-mode="1" target="_blank" = alpha_btn
+    - if defined? beta_btn
+      hr
+      a.btn.btn-white href="#{anchor}" = beta_btn
 
 javascript:
   (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()

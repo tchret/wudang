@@ -1,0 +1,66 @@
+- name: Dormitory
+  description: Simple dormitory with 6 beds.
+  values:
+    - value: 450 Rmb / day # less than one week
+      duration: "> 1 week"
+    - value: 3000 Rmb      # 1 week
+      duration: 1 week
+    - value: 5000 Rmb      # 2 weeks
+      duration: 2 weeks
+    - value: 7000 Rmb      # 1 month
+      duration: 1 month
+    - value: 20 000 Rmb    # 3 months
+      duration: 3 months
+    - value: 39 000 Rmb    # 6 months
+      duration: 6 months
+    - value: 60 000 Rmb    # 1 year
+      duration: 1 year
+    - value: 110 000 Rmb   # 2 years
+      duration: 2 years
+    - value: 155 000 Rmb   # 3 years
+      duration: 3 years
+
+- name: Single Cabin
+  description: Shared room with 2 people.
+  values:
+    - value: 500 Rmb / day # less than one week
+      duration: "> 1 week"
+    - value: 3500 Rmb      # 1 week
+      duration: 1 week
+    - value: 5500 Rmb      # 2 weeks
+      duration: 2 weeks
+    - value: 7500 Rmb
+      duration: 1 month
+    - value: 21 000 Rmb    # 3 months
+      duration: 3 months
+    - value: 40 000 Rmb    # 6 months
+      duration: 6 months
+    - value: 70 000 Rmb    # 1 year
+      duration: 1 year
+    - value: 120 000 Rmb   # 2 years
+      duration: 2 years
+    - value: 165 000 Rmb   # 3 years
+      duration: 3 years
+
+- name: Single Room
+  description: A room, just for you
+  values:
+    - value: fully booked  # less than one week
+      duration: "> 1 week"
+    - value: fully booked  # 1 week
+      duration: 1 week
+    - value: fully booked  # 2 weeks
+      duration: 2 weeks
+    - value: fully booked  # 1 month
+      duration: 1 month
+    - value: fully booked  # 3 months
+      duration: 3 months
+    - value: fully booked  # 6 months
+      duration: 6 months
+    - value: fully booked  # 1 year
+      duration: 1 year
+    - value: fully booked  # 2 years
+      duration: 2 years
+    - value: fully booked  # 3 years
+      duration: 3 years
+

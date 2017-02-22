@@ -1,0 +1,28 @@
+= partial 'partials/header', locals: {title: t(:pricing_banner_title), tagline: t(:pricing_banner_tagline), slug: 'pricing', anchor: '#more'}
+.pricing
+  .container
+    .pricing-table
+      .pricing-column-duration style="padding-top: 110px;"
+        - data.pricing_data.each do |item|
+          .pricing-column-value = item.value
+      .pricing-columns class='clearfix'
+        - data.pricing_columns.each do |pricing_column|
+          .pricing-column
+            .pricing-column-header
+              .pricing-column-name
+                = pricing_column['name']
+              .pricing-column-description
+                = pricing_column.description
+            .pricing-column-values
+              - pricing_column.values[2].each do |item|
+                .pricing-column-duration-responsive
+                  = item.duration
+                .pricing-column-value
+                  = item.value
+  .container
+    - ['1', '2', '3', '4'].each do |slug|
+      - if t(:"pricing_title_#{slug}", default: 'false') != 'false'
+        .title
+          = t :"pricing_title_#{slug}"
+      .paragraph
+        = t(:"pricing_paragraph_#{slug}").html_safe

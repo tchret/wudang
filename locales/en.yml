@@ -3,8 +3,12 @@ en:
 
   home_banner_title: 'Come to China. <br/> Transform yourself.'
   home_banner_tagline: 'The Wudang Gong Fu & Health Academy is a small secluded school with a genuine education program'
+
   program_banner_title: 'Xuan Wu Pai <br/>Study program'
   program_banner_tagline: 'Designed to give you a proper foundation with in the Internal Martial arts of Wudang Shan'
+
+  pricing_banner_title: 'Pricing'
+  pricing_banner_tagline: 'Short & long period stay'
 
   btn_cta: 'Apply for a stay'
   btn_about: 'About the school'
@@ -36,6 +40,13 @@ en:
   program_paragraph_disciple: If you follow this schedule step by step and train hard you will get a proper foundation and reach a good level of Gong Fu. You start as a beginner but after the full program is over you will be a true disciple of the Wudang Pai. This is the traditional way of the Wudang Neijia teachings from the Daoist Temples of Wudang Shan.
   program_title_bai: Bai Ri Zhu Ji
   program_paragraph_bai: One Hundred Days to Build the Foundation. It is said that the first 100 days are the most important phase of the training for building up the Qi, body structure and the 6 harmonies. With a good and solid foundation your future training will give good results. The program consists of 9 sections 3 months each to fit the schedule, but of course the sections can be extended for the people who like to come and do a full 100 days.
+
+  pricing_paragraph_1: All prices includes training, 3 meals every day, accommodation and Wifi. For longer periods of stay at the academy (1 month or more)  everybody pay´s  the first month in cash when they arrive. This is a try out period so you can have a taste of the life at the school. This money will then be subtracted from the total sum if you decide to stay.
+  pricing_paragraph_2: We will start asking for a 1000 rmb booking deposit. Because some people have said that they would come but then never showed up, and at the same time we have turned down other people. This is a way for the Academy to make it easier to plan and to sort out undecided students. The deposit will be payed to Tang Li Long’s bank account.  Make sure you save your receipt. Copy, print it, scan it and send it to us in a email, then we will send you the invitation letter. These 1000 rmb will then be taken away from the total amount.
+  pricing_title_3: "What’s included"
+  pricing_paragraph_3: "Accommodation, Food and Tuition. Three meals will be provided everyday, Chinese style mostly vegetarian dishes. Students should be prepared to meet the simple living conditions here, bunk beds, shared shower rooms and squat toilets, insects and moist environment."
+  pricing_title_4: "What’s not included"
+  pricing_paragraph_4: "You need training clothes and shoes. You can bring your own or buy some tailor made from the shops downtown. A whole set cost 200 – 300 Rmb. Special training equipment or medicines for the skill training are not included. Transport fees are also not included. The bus to the school cost 5 Rmb. The training can be quite tough so you might want to bring some extra proteins and minerals."
 
   section_1_title: 'Section one'
   section_1_subtitle: 'Basic Training / Elementary 1'
