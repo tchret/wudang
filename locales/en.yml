@@ -1,6 +1,9 @@
 en:
   navbar_program: 'Program'
   navbar_pricing: 'Pricing'
+  navbar_tang_li_long: 'Tang Li Long'
+  navbar_xuan_wu_pai: 'Xuan Wu Pai'
+
 
   home_banner_title: 'Come to China. <br/> Transform yourself.'
   home_banner_tagline: 'The Wudang Gong Fu & Health Academy is a small secluded school with a genuine education program'
@@ -10,6 +13,13 @@ en:
 
   pricing_banner_title: 'Pricing'
   pricing_banner_tagline: 'Short & long period stay'
+
+  tang_li_long_banner_title: '唐理龙 — Master Tang Li Long '
+  tang_li_long_banner_tagline: '[Tagline about the master]'
+
+  xuan_wu_pai_banner_title: "The mountain will be flourishing some day…"
+  xuan_wu_pai_banner_tagline: Zhang San Feng told his disciples to “carefully preserve the transmission of Dao”.
+
 
   btn_cta: 'Apply for a stay'
   btn_about: 'About the school'
@@ -48,6 +58,22 @@ en:
   pricing_paragraph_3: "Accommodation, Food and Tuition. Three meals will be provided everyday, Chinese style mostly vegetarian dishes. Students should be prepared to meet the simple living conditions here, bunk beds, shared shower rooms and squat toilets, insects and moist environment."
   pricing_title_4: "What’s not included"
   pricing_paragraph_4: "You need training clothes and shoes. You can bring your own or buy some tailor made from the shops downtown. A whole set cost 200 – 300 Rmb. Special training equipment or medicines for the skill training are not included. Transport fees are also not included. The bus to the school cost 5 Rmb. The training can be quite tough so you might want to bring some extra proteins and minerals."
+
+  tang_title_1: About the master
+  tang_paragraph_1: The teacher of the Academy is Tang Li Long (Daoist priest name). He is a 15th generation Wudang Daoist Martial Arts Master of the Xuan Wu Pai. Encouraged by his father he started training Martial Arts in his home town at a young age. Later, after studying Wudang Taiji Quan in Wuhan for a well known master he was told to go to Wudang Mountain to become a Wudang Disciple. He’s master sent a mail to the Wudang Shool of Martial Arts and some time later he was invited to come and study for 14th generation Wudang Master You Xuande, who was the Abbot of the Wudang Temples and the keeper of the Wudang Martial Arts.
+  tang_title_2: Wudang Disciple
+  tang_paragraph_2: 1994 he arrived at Wudang Mountain and started to learn from Grand Master You. After a long time of hard training Master Tang became one of the main diciples of You Xuande. With a genuine background with in Taiji Quan his skills and understanding where different from other students. He worked close to Master You and helped him write down ideas about Martial Arts and Daoism. Tang Li Long is now one of the “5 Dragons of Wudang” and a linage holder of the Wudang Xuan Wu Pai. 1998 he won a Medal in the 1st World Traditional Wushu Championships and 1999 he was awarded as a outstanding Master in a big Wudang Taiji Quan gathering.
+  tang_title_3: Tang Laoshi
+  tang_paragraph_3: Master Tang Li Long, or “Tang Laoshi” as most people call him, has almost 20 years of experience of Wudang Martial Arts and have a system of teaching that is different from other schools on the mountain. He teaches the foundations of the style and focus on Basics, Qi Gong and Applications. His long time students has won many competitions and gained high skills in Wudang Wushu. His main skill is his ability to bring out good quality of the training and the students and teach the essence of Wudang Internal Martial Arts. He holds a position as secretery of the International Wudang Mountain Taiji Gongfu Association and have done performances in China, Korea and Germany. He has publiced articles in the Chinese Martial Arts Wudang Wind Magazine and Hubei Daily Newspaper. He was mentioned in a book about famous Gongfu Masters in 2010 (“Chinese Folk/Unofficial Gongfu Masters” – “Zhongguo Mingjian Wushu Mingjia”). In 2010 set up the school and the present location in Wudangshan, same year his student Jakob Isaksson, Sweden, won a Silver and Brons Medal in the 4th World Traditional Wushu Championships.
+  tang_paragraph_4: Tang Li Longs philosophy is to wholeheartedly train the disciples and carry on the tradition.
+
+  xuan_wu_pai_title_1: The Zhang San Feng legacy
+  xuan_wu_pai_paragraph_1: Almost 800 years after Zhang San Feng was preaching the texts of the Dao De Jing at the “Wu Long Gong” (“The Palace/ Temple of the five Dragons”) in Wudang Shan, his legacy lives on. Preserved throughout the history by Daoist scholars and revolutionary heroes, the Wudang Martial Arts are as strong as ever. The entire system was passed on from generation to generation of disciples which made it hard to trace during the centuries. The culture of Wudang Shan had it´s moments of flourishing and it´s moments of being close to extinction. There fore the unique arts of Wudang Shan are now open to public so that the knowledge can spread and live on forever. At the beginning San Feng had a humble amount of disciples who followed him to live in huts around early temples of the mountain. They were studying the stars, Energy, Medicine and Martial Arts forming the legacy we still keep alive to this very day. Based om the Daoist Principles, the knowledge about Yin and Yang, the Five Element Theory and the martial heritage of the Song Shan “Shaolin Temple” a movement grew strong. A movement that would change the world of martial arts forever. All the modern forms of Taiji Quan, Xing Yi Quan, Bagua Zhang and Baji Quan were born out of this movement and Wudang Shan was, and still is, the place for people to gather and practice those martial arts as well as self cultivation.
+  xuan_wu_pai_title_2: The Xuan Wu Pai
+  xuan_wu_pai_paragraph_2: In the Yong Le period of the Ming Dynasty (1413) the emperor ordered to start a giant construction project at Wudang Shan. Zhang Yu Qing, a Daoist from the Zheng Yi Sect, acted upon the order and called more than 500 Daoists from nearby provinces to follow him to Mt. Wudang. Among them around 20 were assigned with important duties and positions in many different temples. All of them considered Zhen Wu to be the common deity and Zhang San Feng to be the founder of their movement. Therefore people called them Zhen Wu Xuan Wu Sect. In 1989, upon the common understanding, the Daoism association agreed to change the name of the sect intoo “Wudang Xuan Wu Sect”. This sect boasts lots of classics, among them the Zhen WU Cannon remains the mainstay. “Zhang San Feng transmitted his knowledge to Lu Qiu Yun, Liu Gu Quan, Yang San Cheng, Zhou Zhen De, Li Xing Zhi, Qiu Xuan Qing. Li Xing Zhi also transferred his knowledge to Zhi Dao Ren, Shu Fu Chu; Qiu Xuan Qing to Yan Shan Ming, Pu Shan Yuan, Ma Shang Ning, etc.” The Daoism Sects Chronicles, a ancient book circulating the Wudang area, has the recording that the Wudang Pai had eight branches. Xuan Wu Pai is one of those branches.
+  xuan_wu_pai_title_3: You Xuan De
+  xuan_wu_pai_paragraph_3: Daoist Master You Xuan De is now the 14th generation headmaster of the Wudang Xuan Wu Pai. Ascending from a family with strong martial history, You Xuan De has been practicing martial arts since childhood. When he turned 18 he was already assisting his father training the Chinese Special Forces. Even though his knowledge was already on an advanced level, he left home to seek even more guidance by great masters. After achieving the real Wudang Boxing from Wang Wei Shen, the inheritor of Wudang Songxi Pai, he was strongly recommended to go and learn at the original place of Wudang martial arts – Wudang Shan. At the mountain his teachers were all foremost Wudang Daoist Tong Shen Wang (a hermit at Wudang Temple), Zhu Cheng De (Daoist headmaster) and Lu Ming Dao (who lived more than 100 years). During the 1990´s he did a lot of exhibitions and shows and helped spreading the Wudang culture all over China. His teachings are based on Daoist principles and Chinese Medicine. Every movement has a practical application which underlines the heritage of Wudang Pai as an effective martial/ fighting art. Grand Master You Xuan De is now resident at Nan Wudang Shan close to Wuhan.
+
 
   section_1_title: 'Section one'
   section_1_subtitle: 'Basic Training / Elementary 1'
