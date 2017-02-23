@@ -6,5 +6,6 @@
 - [x] Program Page
 - [x] Form page
 - [x] Pricing page
-- [ ] Tang Li Long Page
+- [x] Tang Li Long Page
+- [x] Xuan Wu Pai
 - [ ] Gallery
