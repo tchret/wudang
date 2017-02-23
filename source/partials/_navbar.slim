@@ -8,3 +8,27 @@
         = link_to t(:"navbar_#{item.href}"), "#{item.href}"
     span
       a.btn.btn-white.typeform-share href="https://tchret1.typeform.com/to/rfgZ5C" data-mode="1" target="_blank" = t :apply
+
+  .navbar-menu.navbar-menu-responsive
+    span
+      a.navbar-menu-dropdown-trigger = 'More'
+    span
+      a.btn.btn-white.typeform-share href="https://tchret1.typeform.com/to/rfgZ5C" data-mode="1" target="_blank" = t :apply
+
+
+  .navbar-menu-dropdown
+    - data.navbar_menu_items.each do |item|
+      = link_to t(:"navbar_#{item.href}"), "#{item.href}"
+
+
+javascript:
+  console.log('yo')
+  $('.navbar-menu-dropdown-trigger').on('click', function(e) {
+    console.log('yo')
+    $('.navbar-menu-dropdown').toggleClass('is-active')
+    e.stopPropagation();
+  })
+
+  $('body').on('click', function() {
+    $('.navbar-menu-dropdown').removeClass('is-active')
+  })

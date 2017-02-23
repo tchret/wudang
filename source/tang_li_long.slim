@@ -1,0 +1,10 @@
+= partial 'partials/header', locals: {title: t(:tang_li_long_banner_title), tagline: t(:tang_li_long_banner_tagline), anchor: '#more', slug: 'tang'}
+br
+br
+.container
+  - ['1', '2', '3', '4'].each do |slug|
+    - if t(:"tang_title_#{slug}", default: 'false') != 'false'
+      .title
+        = t :"tang_title_#{slug}"
+    .paragraph
+      = t(:"tang_paragraph_#{slug}").html_safe
