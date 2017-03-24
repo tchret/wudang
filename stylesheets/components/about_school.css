@@ -1,0 +1,62 @@
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+#about {
+  padding-top: 100px; }
+
+/* line 5, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.about-school-banner {
+  background: url("../../images/banner_about.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1900px;
+  margin: auto;
+  position: relative; }
+  /* line 15, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+  .about-school-banner:after, .about-school-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: -webkit-linear-gradient(left, white, transparent);
+    background: linear-gradient(90deg, white, transparent);
+    background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.001) 50%, #fff 90%, #fff 100%); }
+  /* line 28, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+  .about-school-banner:before {
+    left: inherit;
+    right: 0;
+    background: -webkit-linear-gradient(right, white, transparent);
+    background: linear-gradient(-90deg, white, transparent);
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.001) 50%, #fff 90%, #fff 100%); }
+  @media (max-width: 800px) {
+    /* line 5, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+    .about-school-banner {
+      height: 150px; } }
+
+/* line 43, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.title {
+  font-size: 30px;
+  color: #BBBBBB;
+  letter-spacing: 0px;
+  padding-bottom: 25px; }
+
+/* line 51, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.paragraph {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 50px;
+  opacity: .8; }
+
+/* line 58, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.about-school-text {
+  font-size: 20px;
+  padding: 50px 0;
+  line-height: 1.7;
+  font-weight: 400;
+  opacity: .8; }
+  @media (max-width: 800px) {
+    /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+    .about-school-text {
+      padding: 25px 0; } }

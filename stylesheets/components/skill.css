@@ -1,0 +1,80 @@
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skills {
+  margin-top: -55px;
+  position: relative;
+  text-align: center; }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skills {
+      padding-bottom: 0; } }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skills {
+      display: block; } }
+
+/* line 15, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skill {
+  border-radius: 50%;
+  font-weight: bold;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px; }
+  /* line 26, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill span {
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 33, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-title {
+    margin: 15px 0;
+    font-size: 22px; }
+  /* line 38, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-description {
+    text-align: center;
+    opacity: .7;
+    display: inline-table;
+    padding: 0 20px;
+    font-size: 20px; }
+  /* line 47, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-container {
+    display: inline-block;
+    max-width: 33%;
+    text-align: center; }
+    @media (max-width: 800px) {
+      /* line 47, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+      .skill-container {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 50px; } }
+    /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skill-container:last-child, .skill-container:nth-last-child(2) {
+      margin-top: 75px; }
+      @media (max-width: 800px) {
+        /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+        .skill-container:last-child, .skill-container:nth-last-child(2) {
+          margin-top: 0; } }
+
+/* line 68, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skill-gradient {
+  padding: 4px;
+  width: 100px;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 50%; }
+
+@-moz-document url-prefix() {
+  /* line 78, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill span {
+    background: none !important;
+    color: #d8d8d8 !important; } }

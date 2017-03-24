@@ -1,0 +1,1510 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-black/lato-black.eot");
+  src: url("../fonts/lato-black/lato-black.otf") format("otf"), url("../fonts/lato-black/lato-black.woff") format("woff"), url("../fonts/lato-black/lato-black.svg") format("svg"), url("../fonts/lato-black/lato-black.ttf") format("truetype");
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato-bold/lato-bold.eot");
+  src: url("../fonts/lato-bold/lato-bold.otf") format("otf"), url("../fonts/lato-bold/lato-bold.woff") format("woff"), url("../fonts/lato-bold/lato-bold.svg") format("svg"), url("../fonts/lato-bold/lato-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato-regular/lato-regular.eot");
+  src: url("../fonts/lato-regular/lato-regular.otf") format("otf"), url("../fonts/lato-regular/lato-regular.woff") format("woff"), url("../fonts/lato-regular/lato-regular.svg") format("svg"), url("../fonts/lato-regular/lato-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+/* line 34, /Users/tchret/code/wudang/source/stylesheets/fonts.scss */
+:root {
+  font-family: 'Lato', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.3;
+  color: #2F2E2E; }
+
+/* line 42, /Users/tchret/code/wudang/source/stylesheets/fonts.scss */
+.table-cell {
+  display: table-cell;
+  vertical-align: middle; }
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+a {
+  outline: 0; }
+  /* line 15, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+  a:focus {
+    outline: none !important; }
+
+/* line 20, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 38, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 49, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 58, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 72, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 82, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 94, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 102, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 116, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 124, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 132, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 141, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 149, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 159, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 171, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 181, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 189, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 197, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 205, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 209, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 221, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 229, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 241, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 253, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 264, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 275, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 289, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 302, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 314, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 324, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 336, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 348, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 357, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 368, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 381, /Users/tchret/code/wudang/source/stylesheets/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+#about {
+  padding-top: 100px; }
+
+/* line 5, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.about-school-banner {
+  background: url("../images/banner_about.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1900px;
+  margin: auto;
+  position: relative; }
+  /* line 15, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+  .about-school-banner:after, .about-school-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: -webkit-linear-gradient(left, white, transparent);
+    background: linear-gradient(90deg, white, transparent);
+    background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.001) 50%, #fff 90%, #fff 100%); }
+  /* line 28, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+  .about-school-banner:before {
+    left: inherit;
+    right: 0;
+    background: -webkit-linear-gradient(right, white, transparent);
+    background: linear-gradient(-90deg, white, transparent);
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.001) 50%, #fff 90%, #fff 100%); }
+  @media (max-width: 800px) {
+    /* line 5, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+    .about-school-banner {
+      height: 150px; } }
+
+/* line 43, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.title {
+  font-size: 30px;
+  color: #BBBBBB;
+  letter-spacing: 0px;
+  padding-bottom: 25px; }
+
+/* line 51, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.paragraph {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 50px;
+  opacity: .8; }
+
+/* line 58, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+.about-school-text {
+  font-size: 20px;
+  padding: 50px 0;
+  line-height: 1.7;
+  font-weight: 400;
+  opacity: .8; }
+  @media (max-width: 800px) {
+    /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/about_school.scss */
+    .about-school-text {
+      padding: 25px 0; } }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-wrapper {
+  background: #F8F8F8;
+  padding: 50px 0; }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor-wrapper {
+      padding: 0; } }
+
+/* line 10, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor {
+  background: url("../images/tang_li_long_2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  /* line 19, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+  .actor.is-clickable {
+    cursor: pointer; }
+    /* line 21, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor.is-clickable:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  @media (max-width: 800px) {
+    /* line 10, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor {
+      border-radius: 0;
+      background-position: right center;
+      height: 300px; } }
+  /* line 32, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+  .actor-container {
+    position: relative; }
+
+/* line 37, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 300px;
+  padding: 40px; }
+  @media (max-width: 800px) {
+    /* line 37, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor-content {
+      position: relative;
+      max-width: 100%;
+      padding: 30px 20px;
+      text-align: center; } }
+
+/* line 54, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-title {
+  font-size: 32px;
+  font-weight: 600; }
+
+/* line 59, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-description {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 25px 0;
+  opacity: .7; }
+
+/* line 66, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-buttons {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  font-size: 18px; }
+  @media (max-width: 800px) {
+    /* line 66, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor-buttons {
+      position: relative;
+      margin-top: 25px; } }
+  /* line 77, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+  .actor-buttons a {
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+    opacity: .9;
+    cursor: pointer; }
+    /* line 82, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+    .actor-buttons a:hover {
+      opacity: 1;
+      box-shadow: 0px 1px black; }
+
+/* line 89, /Users/tchret/code/wudang/source/stylesheets/components/actor.scss */
+.actor-role {
+  opacity: .4;
+  font-size: 20px; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+.btn {
+  display: inline-block;
+  background: black;
+  padding: 0 20px;
+  line-height: 48px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0; }
+  /* line 11, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+  .btn:focus {
+    outline: 0; }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+    .btn {
+      font-size: 14px; } }
+  /* line 19, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+  .btn-active {
+    background: #2ECC71;
+    border: 1px solid #2ECC71;
+    color: white; }
+    /* line 24, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+    .btn-active:hover {
+      background: #40d47e;
+      border-color: #40d47e; }
+  /* line 30, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+  .btn-white {
+    background: white;
+    font-weight: 400 !important;
+    color: #16222A !important; }
+    /* line 35, /Users/tchret/code/wudang/source/stylesheets/components/btn.scss */
+    .btn-white:hover {
+      color: white;
+      background: white; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/container.scss */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px; }
+  /* line 6, /Users/tchret/code/wudang/source/stylesheets/components/container.scss */
+  .container.no-padding {
+    padding: 0; }
+  /* line 10, /Users/tchret/code/wudang/source/stylesheets/components/container.scss */
+  .container.padding-vertical {
+    padding: 50px 20px; }
+  /* line 14, /Users/tchret/code/wudang/source/stylesheets/components/container.scss */
+  .container.is-large {
+    max-width: 900px; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  opacity: .3;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px; }
+  /* line 10, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+  .footer .signature {
+    margin-top: 20px;
+    text-transform: lowercase;
+    letter-spacing: 0; }
+    /* line 15, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+    .footer .signature a {
+      text-decoration: none;
+      color: black; }
+      /* line 19, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+      .footer .signature a:hover {
+        letter-spacing: 1px; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+.header {
+  text-align: center;
+  padding: 155px 20px;
+  color: white;
+  position: relative;
+  background-size: cover;
+  background-position: center top; }
+  /* line 9, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header.home {
+    background-image: url("../images/background_home.jpg"); }
+  /* line 13, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header.program {
+    background-image: url("../images/background_program.jpg");
+    background-position: center center; }
+  /* line 19, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header.pricing {
+    background-image: url("../images/background_program.jpg");
+    background-position: center center; }
+  /* line 24, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header.tang {
+    background-image: url("../images/tang_li_long_3.jpg");
+    background-position: center center; }
+  /* line 29, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header.xuan_wu_pai {
+    background-image: url("../images/xuan_wu_pai.jpg");
+    background-position: center center; }
+  /* line 34, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header:after {
+    background-image: -webkit-linear-gradient(bottom, #16222A 0%, rgba(58, 96, 115, 0.6) 100%);
+    background-image: linear-gradient(0deg, #16222A 0%, rgba(58, 96, 115, 0.6) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ''; }
+  /* line 44, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header div {
+    position: relative;
+    z-index: 1; }
+  /* line 49, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header-title {
+    font-size: 42px;
+    font-weight: 900; }
+    @media (max-width: 800px) {
+      /* line 49, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+      .header-title {
+        font-size: 32px; } }
+  /* line 57, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header-tagline {
+    font-size: 24px;
+    padding: 30px 0;
+    opacity: .9;
+    font-weight: 400;
+    max-width: 550px;
+    margin: auto; }
+    @media (max-width: 800px) {
+      /* line 57, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+      .header-tagline {
+        font-size: 16px;
+        line-height: 1.5; } }
+  /* line 71, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+  .header-buttons {
+    margin-top: 15px; }
+    @media (max-width: 400px) {
+      /* line 75, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+      .header-buttons .btn {
+        display: block !important; } }
+    /* line 80, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+    .header-buttons hr {
+      display: inline-block;
+      opacity: 0;
+      margin: 0 10px; }
+      @media (max-width: 800px) {
+        /* line 80, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+        .header-buttons hr {
+          margin: 0 5px; } }
+      @media (max-width: 400px) {
+        /* line 80, /Users/tchret/code/wudang/source/stylesheets/components/header.scss */
+        .header-buttons hr {
+          display: block;
+          height: 10px;
+          opacity: 0; } }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+.map {
+  height: 300px; }
+  /* line 4, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+  .map.is-full-size {
+    height: 100vh;
+    min-height: 300px; }
+  /* line 16, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+  .map-container {
+    position: relative; }
+  /* line 20, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+  .map-address {
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Lato;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    @media (max-width: 900px) {
+      /* line 20, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+      .map-address {
+        margin: 0; } }
+    /* line 37, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+    .map-address-container {
+      right: 0;
+      z-index: 999;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      padding: 20px; }
+    /* line 46, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+    .map-address svg, .map-address span {
+      display: table-cell;
+      vertical-align: middle; }
+    /* line 51, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+    .map-address span {
+      padding-left: 12px; }
+      @media (max-width: 800px) {
+        /* line 51, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+        .map-address span {
+          padding-left: 20px; } }
+    /* line 59, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+    .map-address svg {
+      margin-right: -8px; }
+
+/* line 65, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+.map-full-size {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  width: 81px;
+  opacity: .3; }
+  @media (max-width: 800px) {
+    /* line 65, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+    .map-full-size {
+      display: none; } }
+  /* line 81, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+  .map-full-size.is-colored {
+    color: #2ECC71;
+    opacity: 1; }
+  /* line 86, /Users/tchret/code/wudang/source/stylesheets/components/map.scss */
+  .map-full-size:hover {
+    opacity: .7; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+.logo {
+  height: 30px;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.28);
+  border: 3px solid rgba(255, 255, 255, 0.39);
+  border-radius: 50%;
+  display: inline-block; }
+
+/* line 10, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+.navbar {
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 20px;
+  display: table; }
+
+/* line 20, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+.navbar-main {
+  display: table-cell;
+  width: 100%; }
+
+/* line 25, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+.navbar-menu {
+  vertical-align: middle;
+  display: table-cell; }
+  /* line 29, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu.navbar-menu-responsive {
+    display: none; }
+  @media (max-width: 600px) {
+    /* line 25, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+    .navbar-menu {
+      display: none; }
+      /* line 35, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+      .navbar-menu.navbar-menu-responsive {
+        display: table-cell; } }
+  /* line 40, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu .btn {
+    padding: 12px; }
+  /* line 44, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu a {
+    white-space: nowrap; }
+  /* line 48, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu span {
+    display: table-cell; }
+    /* line 51, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+    .navbar-menu span .btn {
+      border: 2px solid white; }
+    /* line 55, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+    .navbar-menu span.is-active a {
+      opacity: 1; }
+      /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+      .navbar-menu span.is-active a:after {
+        content: '';
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background: #2ECC71;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        box-shadow: 0px 0px 0px 2px rgba(46, 204, 113, 0.36);
+        bottom: -7px; }
+  /* line 75, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9375rem;
+    font-weight: 700;
+    margin-left: 9px;
+    position: relative;
+    cursor: pointer;
+    line-height: 1em;
+    padding: 8px 7px 9px;
+    position: relative;
+    border-radius: 5px; }
+    /* line 89, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+    .navbar-menu a:hover {
+      opacity: 1; }
+
+/* line 95, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+.navbar-menu-dropdown {
+  background: black;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateY(-20px) scale(0.7);
+          transform: translateY(-20px) scale(0.7);
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.3s ease, -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease, -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 5px 15px;
+  height: auto !important;
+  right: 15px;
+  width: 250px;
+  top: 69px; }
+  /* line 113, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu-dropdown a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 0;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%; }
+    /* line 122, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+    .navbar-menu-dropdown a:hover {
+      font-weight: 600; }
+  /* line 127, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu-dropdown:after {
+    content: '';
+    top: -4px;
+    right: 6px;
+    left: 100px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background: black;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  /* line 139, /Users/tchret/code/wudang/source/stylesheets/components/navbar.scss */
+  .navbar-menu-dropdown.is-active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+    z-index: 9999;
+    min-width: 150px; }
+
+/* line 2, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing table {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid #e4e4e4; }
+  /* line 8, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing table tbody tr:first-child {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+  /* line 13, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing table h6 {
+    text-align: center; }
+  /* line 17, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing table td {
+    vertical-align: middle; }
+
+/* line 23, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-table {
+  position: relative;
+  margin-top: -125px;
+  padding-bottom: 50px; }
+  /* line 28, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-table:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 35, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column {
+  float: left;
+  width: 33%;
+  border-right: 1px dashed #ececec; }
+  /* line 39, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column:last-child {
+    border-right: none; }
+
+/* line 44, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-columns {
+  text-align: center;
+  float: left;
+  width: 86%;
+  float: left;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  /* line 53, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-columns:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 61, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-line:after {
+  content: "";
+  display: table;
+  clear: both; }
+/* line 66, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-line div {
+  float: left;
+  width: 25%; }
+
+/* line 72, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column-header {
+  min-height: 68px;
+  padding: 30px;
+  min-height: 70px; }
+
+/* line 78, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column-name {
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+/* line 83, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column-description {
+  opacity: .7; }
+
+/* line 87, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column-value {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+
+/* line 93, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+.pricing-column-duration {
+  width: 14%;
+  padding-top: 130px !important;
+  float: left;
+  min-width: 110px; }
+  /* line 98, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column-duration .pricing-column-value {
+    border-bottom: 1px solid transparent;
+    line-height: 60px;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #797979;
+    text-align: right;
+    padding-right: 20px; }
+
+@media (max-width: 820px) {
+  /* line 111, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column-duration {
+    display: none; }
+
+  /* line 114, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-columns {
+    width: 100%; }
+
+  /* line 118, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column {
+    float: left;
+    width: 100%;
+    border: none; }
+    /* line 123, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+    .pricing-column-header {
+      padding-bottom: 0;
+      padding-top: 50px; }
+
+  /* line 129, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column-duration-responsive {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e1e1; }
+
+  /* line 136, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column-value {
+    float: left;
+    width: 50% !important; } }
+@media (min-width: 820px) {
+  /* line 143, /Users/tchret/code/wudang/source/stylesheets/components/pricing.scss */
+  .pricing-column-duration-responsive {
+    display: none; } }
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-wrapper {
+  background: #FAFAFA;
+  padding: 50px 0;
+  padding-bottom: 100px; }
+
+/* line 7, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider {
+  position: relative; }
+
+/* line 11, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-item {
+  display: none; }
+  /* line 13, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-item.is-active {
+    display: block; }
+
+/* line 17, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-item-title {
+  font-size: 42px;
+  letter-spacing: -1px; }
+  @media (max-width: 800px) {
+    /* line 17, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-item-title {
+      font-size: 29px; } }
+
+/* line 26, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-content {
+  margin: 50px 0;
+  min-height: 280px; }
+
+/* line 31, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-item-subtitle {
+  font-size: 24px;
+  opacity: .4; }
+  @media (max-width: 800px) {
+    /* line 31, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-item-subtitle {
+      font-size: 19px; } }
+
+/* line 40, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-item-description {
+  font-size: 20px;
+  opacity: .7;
+  margin-top: 25px; }
+
+/* line 46, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-timeline {
+  display: table;
+  width: 100%;
+  text-align: justify; }
+  /* line 52, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline:hover .program-slider-timeline-item-popover {
+    opacity: 0; }
+  @media (max-width: 800px) {
+    /* line 46, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-timeline {
+      display: none; } }
+
+/* line 62, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-timeline-item {
+  display: table-cell;
+  text-align: center;
+  position: relative; }
+  /* line 67, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item svg {
+    visibility: hidden; }
+  /* line 73, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-before-active .program-slider-timeline-item-content {
+    background: #2ECC71;
+    border-color: #2ECC71; }
+  /* line 78, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-before-active svg {
+    visibility: visible; }
+  /* line 82, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-before-active:after, .program-slider-timeline-item.is-before-active:before {
+    background: #2ECC71; }
+  /* line 88, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-active .program-slider-timeline-item-popover {
+    display: inline-block !important; }
+  /* line 91, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-active .program-slider-timeline-item-content {
+    border-color: #2ECC71;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    cursor: default;
+    background: white; }
+  /* line 98, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item.is-active:before {
+    background: #2ECC71; }
+  /* line 103, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item:after, .program-slider-timeline-item:before {
+    content: '';
+    height: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.09);
+    right: 0;
+    margin: auto;
+    width: 50%; }
+  /* line 115, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item:before {
+    right: inherit;
+    left: 0; }
+  /* line 120, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item-content {
+    background: white;
+    position: relative;
+    border: 3px solid #fafafa;
+    z-index: 3;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .15s ease;
+    transition: -webkit-transform .15s ease;
+    transition: transform .15s ease;
+    transition: transform .15s ease, -webkit-transform .15s ease;
+    background: #c5c5c5; }
+    @media (max-width: 800px) {
+      /* line 120, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+      .program-slider-timeline-item-content {
+        width: 10px;
+        height: 10px; }
+        /* line 137, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+        .program-slider-timeline-item-content svg {
+          display: none; } }
+    /* line 143, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-timeline-item-content:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
+      /* line 147, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+      .program-slider-timeline-item-content:hover + .program-slider-timeline-item-popover-container .program-slider-timeline-item-popover {
+        display: inline-block;
+        opacity: 1; }
+  /* line 155, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item-popover-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center; }
+
+/* line 166, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-timeline-item-popover {
+  background: #16222A;
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  padding: 7px;
+  margin-top: 13px;
+  font-size: 14px;
+  position: relative;
+  display: none; }
+  /* line 177, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-timeline-item-popover:after {
+    width: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 0;
+    right: 0;
+    margin: auto;
+    top: -5px;
+    border-style: solid;
+    border-width: 0 8.5px 8px 8.5px;
+    border-color: transparent transparent #16222a transparent; }
+
+/* line 192, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+.program-slider-arrows {
+  position: absolute;
+  right: 0;
+  display: table;
+  margin-top: 25px;
+  z-index: 99999;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  /* line 200, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+  .program-slider-arrows div {
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ececec;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; }
+    /* line 211, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-arrows div.is-inactive {
+      opacity: .5; }
+    /* line 216, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-arrows div:hover svg {
+      opacity: 1; }
+    /* line 221, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-arrows div svg {
+      opacity: .5; }
+    /* line 224, /Users/tchret/code/wudang/source/stylesheets/components/program_slider.scss */
+    .program-slider-arrows div:first-child {
+      border-left: 0;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
+
+/* line 3, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-explainer {
+  text-align: center;
+  color: white;
+  opacity: .5;
+  max-width: 570px;
+  margin: auto; }
+/* line 11, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-container {
+  margin: auto;
+  position: relative;
+  max-width: 500px; }
+/* line 17, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-wrapper {
+  padding: 50px 0;
+  background: #16222A; }
+  /* line 21, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-wrapper.is-padded {
+    padding-bottom: 300px; }
+/* line 26, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-title {
+  text-align: center;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 50px; }
+  /* line 32, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-title hr {
+    border: none;
+    width: 34px;
+    margin: auto;
+    background: white;
+    height: 2px;
+    margin-top: 25px;
+    opacity: .2; }
+
+/* line 44, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-item {
+  display: table;
+  width: 100%;
+  color: white; }
+  /* line 50, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-item:last-child .schedule-item-artifact:before {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.12), transparent);
+    background: linear-gradient(rgba(255, 255, 255, 0.12), transparent); }
+  /* line 56, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-item > div {
+    display: table-cell; }
+  /* line 60, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-item-hour {
+    vertical-align: middle;
+    width: 42px; }
+  /* line 65, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-item-artifact {
+    width: 10px;
+    position: relative;
+    padding: 0 20px; }
+    /* line 70, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-artifact:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 6px;
+      background: white;
+      width: 6px;
+      box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.4), 0px 0px 0px 6px rgba(255, 255, 255, 0.4);
+      border-radius: 50%; }
+    /* line 85, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-artifact:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      -webkit-transform: translateY(50%);
+              transform: translateY(50%);
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      left: 0;
+      background: rgba(255, 255, 255, 0.12); }
+  /* line 99, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-item-titles {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-left: 5px solid rgba(0, 0, 0, 0.12); }
+    /* line 106, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles.self-practice {
+      border-left: 5px solid #00d0ff; }
+    /* line 110, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles.regular-training {
+      border-left: 5px solid #ffc800; }
+    /* line 114, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles.optionnal {
+      border-left: 5px solid #FAFAFA; }
+    /* line 118, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles-container {
+      padding: 15px; }
+    /* line 122, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles main {
+      display: table-cell;
+      width: 100%; }
+    /* line 127, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-item-titles sidebar {
+      display: table-cell;
+      white-space: nowrap;
+      opacity: .5;
+      vertical-align: middle; }
+
+/* line 136, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-legend {
+  display: table;
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 25px; }
+  /* line 145, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+  .schedule-legend-item {
+    display: table-cell;
+    color: white;
+    font-size: 15px;
+    width: 33.33%; }
+    /* line 151, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+    .schedule-legend-item-circle {
+      background: #454e55;
+      height: 12px;
+      width: 14px;
+      margin: auto;
+      border-radius: 2px;
+      border-left: 4px solid #00d0ff;
+      margin-bottom: 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+/* line 166, /Users/tchret/code/wudang/source/stylesheets/components/schedule.scss */
+.schedule-explainer {
+  text-align: center;
+  color: white;
+  opacity: .5;
+  max-width: 570px;
+  margin: auto; }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skills {
+  margin-top: -55px;
+  position: relative;
+  text-align: center; }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skills {
+      padding-bottom: 0; } }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skills {
+      display: block; } }
+
+/* line 15, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skill {
+  border-radius: 50%;
+  font-weight: bold;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px; }
+  /* line 26, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill span {
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 33, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-title {
+    margin: 15px 0;
+    font-size: 22px; }
+  /* line 38, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-description {
+    text-align: center;
+    opacity: .7;
+    display: inline-table;
+    padding: 0 20px;
+    font-size: 20px; }
+  /* line 47, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill-container {
+    display: inline-block;
+    max-width: 33%;
+    text-align: center; }
+    @media (max-width: 800px) {
+      /* line 47, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+      .skill-container {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 50px; } }
+    /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+    .skill-container:last-child, .skill-container:nth-last-child(2) {
+      margin-top: 75px; }
+      @media (max-width: 800px) {
+        /* line 58, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+        .skill-container:last-child, .skill-container:nth-last-child(2) {
+          margin-top: 0; } }
+
+/* line 68, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+.skill-gradient {
+  padding: 4px;
+  width: 100px;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 50%; }
+
+@-moz-document url-prefix() {
+  /* line 78, /Users/tchret/code/wudang/source/stylesheets/components/skill.scss */
+  .skill span {
+    background: none !important;
+    color: #d8d8d8 !important; } }
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/tag.scss */
+.tag {
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  @media (max-width: 800px) {
+    /* line 1, /Users/tchret/code/wudang/source/stylesheets/components/tag.scss */
+    .tag {
+      font-size: 13px; } }
+
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/video.scss */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+/* line 8, /Users/tchret/code/wudang/source/stylesheets/components/video.scss */
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+/* line 19, /Users/tchret/code/wudang/source/stylesheets/components/video.scss */
+.program-video {
+  margin-top: -275px; }

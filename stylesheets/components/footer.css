@@ -1,0 +1,21 @@
+/* line 1, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  opacity: .3;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px; }
+  /* line 10, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+  .footer .signature {
+    margin-top: 20px;
+    text-transform: lowercase;
+    letter-spacing: 0; }
+    /* line 15, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+    .footer .signature a {
+      text-decoration: none;
+      color: black; }
+      /* line 19, /Users/tchret/code/wudang/source/stylesheets/components/footer.scss */
+      .footer .signature a:hover {
+        letter-spacing: 1px; }
